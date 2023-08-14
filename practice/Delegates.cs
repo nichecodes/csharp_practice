@@ -3,6 +3,7 @@ namespace Delegates
 {
 
     delegate void MessagePrinter();
+    delegate int Adder(int num1, int num2);
 
     public class DelegateTest
 	{
@@ -16,6 +17,8 @@ namespace Delegates
 			Console.WriteLine("Good Bye");
 
 		}
+
+		public int adder ( )
 	}
 }
 

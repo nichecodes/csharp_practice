@@ -17,6 +17,9 @@ namespace practice
             printer();
             printer2.Invoke();
 
+
+
+
         }
     }
 }
