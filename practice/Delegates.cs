@@ -2,12 +2,11 @@
 namespace Delegates
 {
 
-    delegate void MessagePrinter();
-    delegate int Adder(int num1, int num2);
-
+    public delegate void MessagePrinter();
+    public delegate int MathHandler(int num1, int num2);
     public class DelegateTest
 	{
-		public static void PrintHelloWorld()
+        public static void PrintHelloWorld()
 		{
 			Console.WriteLine("Hello World!");
 		}
@@ -17,8 +16,12 @@ namespace Delegates
 			Console.WriteLine("Good Bye");
 
 		}
+		
+		public static int AddThis(int x, int y, MathHandler Adder)
+		{
 
-		public int adder ( )
+			return Adder(x, y);
+		}
 	}
 }
 

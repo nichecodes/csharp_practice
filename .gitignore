@@ -1,3 +1,18 @@
 
 *.dll
 *.pdb
+practice/.vs/practice/xs/project-cache/practice-Debug.json
+practice/.vs/practice/xs/UserPrefs.xml
+practice/bin/Debug/net7.0/practice
+practice/bin/Debug/net7.0/practice.dll
+practice/bin/Debug/net7.0/practice.pdb
+practice/obj/Debug/net7.0/apphost
+practice/obj/Debug/net7.0/practice.csproj.CoreCompileInputs.cache
+practice/obj/Debug/net7.0/practice.csproj.AssemblyReference.cache
+practice/obj/Debug/net7.0/practice.dll
+practice/obj/Debug/net7.0/practice.pdb
+practice/obj/Debug/net7.0/ref/practice.dll
+practice/obj/Debug/net7.0/refint/practice.dll
+practice/obj/practice.csproj.nuget.dgspec.json
+practice/obj/project.assets.json
+practice/obj/project.nuget.cache
